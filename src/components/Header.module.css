@@ -1,0 +1,16 @@
+.header {
+  margin: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray-800);
+  height: 60px;
+}
+.header h1 {
+  margin: 10;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  height: 50px;
+  padding: 10px;
+  text-shadow: 2px 2px 5px var(--play-900);
+}
