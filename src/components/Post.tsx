@@ -5,13 +5,14 @@ import styles from './Post.module.css';
 import { Avatar } from './Avatar';
 import { FormEvent, ChangeEvent, useState, InvalidEvent } from 'react';
 
+
 interface Author {
   name: string;
   role: string;
   avatarUrl: string;
 }
 
-interface Content {
+export interface Content {
   type: 'paragraph' | 'link';
   content: string;
 }
